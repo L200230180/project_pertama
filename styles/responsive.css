@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: .9rem;
+        line-height: 1.8rem;
+    }
+    .grid-3{
+       gap: 1rem; 
+    }
+
+}
+@media screen and (max-width: 720px) {
+    nav {
+        font-size: .8rem;
+        position: fixed;
+        width: 100%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        /* background: darkgray; */
+        transform: translateX(10%);
+    }
+
+
+}
