@@ -8,7 +8,7 @@
     }
 
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 500px) {
     nav {
         font-size: .8rem;
         position: fixed;
@@ -16,8 +16,6 @@
         right: 0;
         top: 0;
         height: 100vh;
-        flex-direction: column;
-        /* background: darkgray; */
         transform: translateX(10%);
     }
 
